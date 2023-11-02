@@ -1,0 +1,23 @@
+# This repo
+*.tfvars
+*.tfplan
+#*.tfstate
+#*.tfstate.backup
+*.tfstate.lock.info
+kubeconfig_*
+config-map-aws-auth_**
+**/.terraform
+#**/.terraform.lock.hcl
+.idea
+
+# VS Code history plugin leftover:
+.history
+.vscode
+
+# Terraform
+#.terraform.lock.hcl
+
+.DS_Store
+
+terraform.pem  
+
